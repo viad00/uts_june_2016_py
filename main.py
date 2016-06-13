@@ -4,8 +4,8 @@ print('Все проекты в папках.')
 '''
 
 import sys
-
-sys.stdin = open("something.in", "r")
-sys.stdout = open("something.out", "w")
+problem_name = str('smthg')
+sys.stdin = open(problem_name + ".in", "r")
+sys.stdout = open(problem_name+".out", "w")
 a, b = map(int, input().split())
 c = int(input())
